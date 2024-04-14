@@ -1,6 +1,6 @@
 ## Commands:
 ```shell
-docker build -t web-server
+docker build -t web-server .
 docker run web-server
 ```
 ## Console Output:
