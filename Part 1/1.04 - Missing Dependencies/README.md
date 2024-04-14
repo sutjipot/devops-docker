@@ -1,14 +1,19 @@
 
-Commands:
+## Commands:
+```shell
 docker run -it ubuntu sh -c "while true; do echo 'Input website:'; read website; echo 'Searching..'; sleep 1; curl http://$website; done"
+```
 
-Fixing:
+## Fixing:
+```shell
 docker exec -it practical_hopper bash
 apt update && sudo apt upgrade
 apt install curl
 Y
+```
 
-then:
+## then:
+```shell
 Input website:
 helsinki.fi
 Searching..
@@ -19,4 +24,4 @@ Searching..
 <hr><center>nginx/1.22.1</center>
 </body>
 </html>
-
+```
