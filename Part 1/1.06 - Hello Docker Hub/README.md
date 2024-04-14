@@ -1,3 +1,11 @@
+## Commands:
+```shell
+docker run -it devopsdockeruh/pull_exercise
+```
+then I go to Docker Hub and search "pull_exercise". in the README.md I got the answer "basics"
+
+## then:
+```shell
 docker run -it devopsdockeruh/pull_exercise
 Unable to find image 'devopsdockeruh/pull_exercise:latest' locally
 latest: Pulling from devopsdockeruh/pull_exercise
@@ -11,3 +19,4 @@ Status: Downloaded newer image for devopsdockeruh/pull_exercise:latest
 Give me the password: basics
 You found the correct password. Secret message is:
 "This is the secret message"
+```
