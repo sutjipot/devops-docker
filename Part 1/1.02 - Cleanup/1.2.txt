@@ -1,5 +1,0 @@
-C:\Users\indir>docker image ls
-REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
-
-C:\Users\indir>docker ps -a
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
